@@ -28,9 +28,9 @@ public class B04_Mit_Datum_Zeit_rechnen {
 		
 		
 		
-//		String s = "java";
-//		s.concat(" ist toll");
-//		System.out.println(s); // s
+		String s = "java";
+		s.concat(" ist toll");
+		System.out.println(s); // java
 		
 	} // end of main
 

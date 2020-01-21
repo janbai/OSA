@@ -1,6 +1,7 @@
 package datetime;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class B03_Datum_Zeit_Objekte_bilden {
 
@@ -25,8 +26,8 @@ public class B03_Datum_Zeit_Objekte_bilden {
 		
 		LocalTime time = LocalTime.of(12, 3); 
 		System.out.println("time: " + time);	// 12:03
-		
-		
+		String t = LocalDateTime.parse("1972-09-03T10:15:50").format(DateTimeFormatter.ISO_DATE_TIME);
+		System.out.println(t);
 //		new LocalDateTime(); // Compilerfehler!
 		
 		LocalDateTime dateTime = LocalDateTime.now();
